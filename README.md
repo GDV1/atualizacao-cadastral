@@ -102,11 +102,17 @@ Em seguida, instalamos outros quatro pacotes que nos auxiliarão no desenvolvime
 
 Após instalar todas as dependências necessárias, gere os módulos com os arquivos de roteamento de acordo com a estrutura recomendada acima usando os comandos da CLI do Angular. 
 
+```
+Cria somente os arquivos `module.ts` e `routing.ts` 
 
-`ng generate module modules/books --routing true`
+ng generate module modules/books --routing true
 
-`ng generate component modules/books/containers/books --flat true --module modules/books/books.module.ts --style scss`
 
+Cria somente o componente já dentro de uma pasta de componentes container
+
+ng generate component modules/books/containers/books --flat true --module modules/books/books.module.ts --style scss
+
+```
 
 Gerando services: 
 
