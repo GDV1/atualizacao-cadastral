@@ -1,0 +1,317 @@
+{
+  "uuid": "514bbbf9-4123-4b40-9543-870ff059d43d",
+  "lastMigration": 32,
+  "name": "Atualizacao cadastral",
+  "endpointPrefix": "api",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "29657d4b-8d78-4f51-899c-07f5d5434fc3",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "contact",
+      "responses": [
+        {
+          "uuid": "7bf2aa26-6496-40a0-b411-da02355e2680",
+          "body": "{\n  \"emails\": [\n    {\n      \"id\": 1,\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2014-05-21T11:20:32Z\",\n      \"endereco_eletronico\": \"luqxyfiaxofi@dloum.jil\",\n      \"autoriza_envio_email\": \"S\"\n    },\n    {\n      \"id\": 2,\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2014-05-21T11:20:32Z\",\n      \"endereco_eletronico\": \"luqxyfiaxofi@dloum.jil\",\n      \"autoriza_envio_email\": \"S\"\n    }\n  ],\n  \"telefones\": [\n    {\n      \"id\": 1,\n      \"tipo\": \"4\",\n      \"ddi\": \"55\",\n      \"ddd\": \"12\",\n      \"telefone\": \"312312312\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-07-26T08:44:11Z\"\n    },\n    {\n      \"id\": 2,\n      \"tipo\": \"2\",\n      \"ddi\": \"55\",\n      \"ddd\": \"12\",\n      \"telefone\": \"45645645\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-07-25T11:30:02Z\"\n    },\n    {\n      \"id\": 3,\n      \"tipo\": \"3\",\n      \"ddi\": \"55\",\n      \"ddd\": \"11\",\n      \"telefone\": \"989898989\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-05-18T17:29:23Z\"\n    },\n    {\n      \"id\": 4,\n      \"tipo\": \"2\",\n      \"ddi\": \"55\",\n      \"ddd\": \"11\",\n      \"telefone\": \"964554674\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-05-18T11:48:11Z\"\n    },\n    {\n      \"id\": 5,\n      \"tipo\": \"3\",\n      \"ddi\": \"55\",\n      \"ddd\": \"11\",\n      \"telefone\": \"96455467\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-05-18T11:48:10Z\"\n    },\n    {\n      \"id\": 6,\n      \"tipo\": \"2\",\n      \"ddi\": \"55\",\n      \"ddd\": \"11\",\n      \"telefone\": \"981455173\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2023-05-04T13:32:00Z\"\n    },\n    {\n      \"id\": 7,\n      \"tipo\": \"2\",\n      \"ddi\": \"55\",\n      \"ddd\": \"21\",\n      \"telefone\": \"27620737\",\n      \"autoriza_envio_sms\": \"S\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 8,\n      \"tipo\": \"4\",\n      \"ddi\": \"55\",\n      \"ddd\": \"21\",\n      \"telefone\": \"22147657\",\n      \"autoriza_envio_sms\": \"N\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 9,\n      \"tipo\": \"3\",\n      \"ddi\": \"55\",\n      \"ddd\": \"21\",\n      \"telefone\": \"22544727\",\n      \"autoriza_envio_sms\": \"N\",\n      \"contato\": \"\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    }\n  ],\n  \"enderecos\": [\n    {\n      \"id\": 1,\n      \"cep\": \"20550022\",\n      \"logradouro\": \"OMHXYFI TUPQI\",\n      \"complemento\": \"OT 744\",\n      \"numero\": \"66\",\n      \"bairro\": \"QUBAJO\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 1,\n      \"descricao_categoria_endereco\": \"RESIDENCIAL E SEDE\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"tipo_residencia\": 4,\n      \"descricao_tipo_residencia\": \"DE FAMILIARES - PF\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2023-12-20T11:14:22Z\"\n    },\n    {\n      \"id\": 2,\n      \"cep\": \"05464000\",\n      \"logradouro\": \"UMBURANAS\",\n      \"complemento\": \"\",\n      \"numero\": \"500\",\n      \"bairro\": \"ALTO DE PINHEIROS\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"SP\",\n      \"municipio\": \"SAO PAULO\",\n      \"categoria_endereco\": 1,\n      \"descricao_categoria_endereco\": \"RESIDENCIAL E SEDE\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2023-11-14T14:34:19Z\"\n    },\n    {\n      \"id\": 3,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"HYXXYUXO FY OPFXOFY 256\",\n      \"complemento\": \"OTQI 231\",\n      \"numero\": \"583\",\n      \"bairro\": \"JOJKOLVU\",\n      \"pais\": \"\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2019-11-01T08:18:38Z\"\n    },\n    {\n      \"id\": 4,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"X HYXXYUXO FY OPFXOFY 461 VM 0 OTQ 036\",\n      \"complemento\": \"VM OT\",\n      \"numero\": \"136\",\n      \"bairro\": \"\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2019-11-01T08:18:38Z\"\n    },\n    {\n      \"id\": 5,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"X HYXXYUXO FY OPFXOFY\",\n      \"complemento\": \"VM OT 36\",\n      \"numero\": \"136\",\n      \"bairro\": \"JOJKOLVU\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2019-11-01T08:18:38Z\"\n    },\n    {\n      \"id\": 6,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"X HYXXYUXO FY OPFXOFY 256 256 OT 231\",\n      \"complemento\": \"\",\n      \"numero\": \"\",\n      \"bairro\": \"\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 7,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"XAO  HYXXYUXO FY OPFXOFY\",\n      \"complemento\": \"\",\n      \"numero\": \"583\",\n      \"bairro\": \"JOJKOLVU\",\n      \"pais\": \"\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 8,\n      \"cep\": \"20780200\",\n      \"logradouro\": \"XAO HYXXYUXO FY OPFXOFY 256 OT231 JOJKOL\",\n      \"complemento\": \"\",\n      \"numero\": \"\",\n      \"bairro\": \"\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 9,\n      \"cep\": \"21941611\",\n      \"logradouro\": \"OC OQKIR FO RUMCYUXO XOLIR\",\n      \"complemento\": \"JJLP\",\n      \"numero\": \"S/N\",\n      \"bairro\": \"JUFOFY APUCYXRUQOXUO\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 2,\n      \"descricao_categoria_endereco\": \"COMERCIAL\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    },\n    {\n      \"id\": 10,\n      \"cep\": \"20000000\",\n      \"logradouro\": \"JUFOFY APUCYXRUQOXUO\",\n      \"complemento\": \"P\",\n      \"numero\": \"\",\n      \"bairro\": \"\",\n      \"pais\": \"BRASIL\",\n      \"uf\": \"RJ\",\n      \"municipio\": \"RIO DE JANEIRO\",\n      \"categoria_endereco\": 3,\n      \"descricao_categoria_endereco\": \"CONTATO\",\n      \"tipo_endereco\": 1,\n      \"descricao_tipo_endereco\": \"NACIONAL\",\n      \"zip_code\": \"\",\n      \"caixa_postal\": 0,\n      \"reside_desde\": \"0\",\n      \"dataAtualizacao\": \"2014-04-17T18:19:35Z\"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "414249aa-a5d4-4d1e-b100-0baef0df0878",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 204,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "83498807-30ba-4995-8d7f-639eac114b2a",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "de8445ca-0d10-4afe-906d-681248f34ceb",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "e3776632-7727-4d5f-a588-b7c64fbe8ba4",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "financialData",
+      "responses": [
+        {
+          "uuid": "d4c08d37-15d3-40db-9149-5cc96a8ae833",
+          "body": "{\n  \"dadosProfissionais\": {\n    \"id\": 1,\n    \"categoriaProfissional\": 6,\n    \"descricaoCategoriaProfissional\": \"PRODUTOR RURAL\",\n    \"comprovouRenda\": \"S\",\n    \"valorRendaMensal\": 19000,\n    \"valorRendaInferida\": 0,\n    \"codigoProfissao\": 32,\n    \"descricaoProfissao\": \"\",\n    \"emAtividadeDesde\": \"10/2016\",\n    \"dataUltimaAtualizacao\": \"03/04/2023\",\n    \"pendenciasFinanceiras\": {\n      \"haPendenciaCategoria\": \"N\",\n      \"haPendenciaRazaoSocial\": \"N\",\n      \"haPendenciaCnpj\": \"N\",\n      \"haPendenciaCargo\": \"N\",\n      \"haPendenciaDataAdmissao\": \"N\",\n      \"haPendenciaProfissao\": \"N\",\n      \"haPendenciaValorRendaMensal\": \"N\",\n      \"haPendenciaComprovanteRenda\": \"N\",\n      \"haPendenciaAnoAtividade\": \"N\"\n    },\n    \"codigoPorte\": 8\n  },\n  \"dadosProdutorRural\": {\n    \"rendaAnualTotal\": \"50000\"\n  },\n  \"dadosPatrimoniais\": {\n    \"patrimonioTotal\": 5000,\n    \"participacaoOutraEmpresa\": \"N\",\n    \"consolidadoTotal\": 0,\n    \"consolidadoImovelTotal\": 0,\n    \"consolidadoOutrosImoveisTotal\": 0,\n    \"consolidadoVeiculoTotal\": 0,\n    \"consolidadoOutrosBensTotal\": 0\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "c20a5c4f-39cf-4c68-83bf-02d4e154e7d3",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 204,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "b414d647-f547-4281-822a-55cfa0fb2a74",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "a21ee108-0dc9-42c1-993f-43bd96493c64",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "8fbb85c7-2e1f-4572-a6f8-78d6d1126082",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "personalData",
+      "responses": [
+        {
+          "uuid": "b0d86c22-fc08-4798-9ba0-0fa92564dba0",
+          "body": "{\n  \"dadosPessoais\": {\n    \"nomeCompleto\": \"PRIVATE DIGITAL TU PF TDM\",\n    \"cpf\": \"34805521538\",\n    \"dataNascimento\": \"07/01/1977\",\n    \"sexo\": \"MASCULINO\",\n    \"codEscolaridade\": 4,\n    \"escolaridade\": \"ENSINO SUPERIOR COMPLETO\",\n    \"codSexo\": \"M\",\n    \"haPendenciaNome\": \"\",\n    \"haPendenciaCSexo\": \"\",\n    \"haPendenciaCpf\": \"\",\n    \"haPendenciaDataNascimento\": \"\",\n    \"haPendenciaApelido\": \"\",\n    \"haPendenciaSituacaoCivil\": \"\"\n  },\n  \"dadosFamiliares\": {\n    \"nomeMae\": \"LOXUO YMUSOVYQK JIRQO FIAXOFI\",\n    \"nomePai\": \"ODYPIX HMIXUOPI FIAXOFI\",\n    \"codEstadoCivil\": 6,\n    \"estadoCivil\": \"DIVORCIADO\",\n    \"haPendenciaNomeDaMae\": \"\",\n    \"haPendenciaNomeDoPai\": \"\",\n    \"haPendenciaCpfConjuge\": \"\",\n    \"haPendenciaNomeConjuge\": \"\",\n    \"haPendenciaEstadoCivil\": \"\",\n    \"informarNomeDaMae\": 0,\n    \"informarNomeDoPai\": 0\n  },\n  \"naturalidade\": {\n    \"codPaisNascimento\": \"046\",\n    \"paisNascimento\": \"BRASIL\",\n    \"codNacionalidade\": \"046\",\n    \"nacionalidade\": \"BRASIL\",\n    \"codUFNascimento\": 39,\n    \"ufNascimento\": \"BA\",\n    \"codMunicipioNascimento\": 31079,\n    \"municipioNascimento\": \"IRECE\",\n    \"haPendenciaPaisNascimento\": \"\",\n    \"haPendenciaNacionalidade\": \"\",\n    \"haPendenciaMunicipioNascimento\": \"\"\n  },\n  \"documentosIdentificacao\": [\n    {\n      \"tipoDocumento\": \"RG SEM O NUMERO DO CPF\",\n      \"numeroDocumento\": \"761290710\",\n      \"numeroTipoDocumento\": 7,\n      \"codOrgaoEmissor\": \"\",\n      \"orgaoEmissor\": \"\",\n      \"codUfDocumento\": 54,\n      \"ufDocumento\": \"RJ\",\n      \"codPaisDocumento\": \"046\",\n      \"paisDocumento\": \"BRASIL\",\n      \"dataEmissaoDocumento\": \"20/04/1993\",\n      \"haPendenciaTipoDocumentoIndentificacao\": \"N\",\n      \"haPendenciaCodigoDocumentoIdentificacao\": \"N\",\n      \"haPendenciaDataEmissaoDocumento\": \"N\",\n      \"haPendenciaVencimentoDocumento\": \"N\",\n      \"haPendenciaOrgaoEmissor\": \"N\",\n      \"haPendenciaUFDocumento\": \"N\",\n      \"haPendenciaPais\": \"N\"\n    }\n  ],\n  \"residenciasFiscais\": [\n    {\n      \"codMotivoFatcaCrs\": 9,\n      \"motivoFatcaCrs\": \"PAIS DE NASCIMENTO\",\n      \"codPais\": \"046\",\n      \"pais\": \"BRASIL\",\n      \"nif\": \"34805521538\"\n    }\n  ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "878fa483-4e16-4fbe-a96a-087b1e99dd99",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 204,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "5099e95d-3504-4302-99a9-471a5d14d4f9",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "1e80a1a7-455b-48a7-966f-b44ee1a66882",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "29657d4b-8d78-4f51-899c-07f5d5434fc3"
+    },
+    {
+      "type": "route",
+      "uuid": "e3776632-7727-4d5f-a588-b7c64fbe8ba4"
+    },
+    {
+      "type": "route",
+      "uuid": "8fbb85c7-2e1f-4572-a6f8-78d6d1126082"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
